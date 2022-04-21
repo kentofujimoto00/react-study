@@ -1,0 +1,21 @@
+.App {
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+.email__title {
+  padding-left: 6px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.email__input {
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 24px;
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 22px;
+}
+.email__input:focus {
+  outline: none;
+}
