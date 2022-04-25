@@ -1,12 +1,10 @@
 import './App.css';
-import MailForm from './MailForm';
+import { MailForm } from './MailForm';
 
-function App() {
+export const App = () => {
   return (
     <div className='App'>
       <MailForm />
     </div>
   );
 }
-
-export default App;

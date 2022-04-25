@@ -1,4 +1,6 @@
-function MailForm() {
+import './index.css';
+
+export const MailForm = () => {
   return (
     <div className='email'>
       <form action="">
@@ -12,5 +14,3 @@ function MailForm() {
     </div>
   );
 }
-
-export default MailForm;
